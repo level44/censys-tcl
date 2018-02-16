@@ -18,7 +18,7 @@ Repository content shall be placed in the TCL library path
 
 ## Loading library
 ```
-package require censsys
+package require censys
 ```
 
 ## Examples
