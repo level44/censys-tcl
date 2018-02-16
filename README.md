@@ -9,7 +9,7 @@ Library currently supports:
 
 ## Requirements
 Library requires:
-- Shodan API key
+- Censys API key and secret phrase
 - TCL 8.6
 or
 - TCL 8.5 + TclOO packages installed
@@ -22,9 +22,9 @@ package require censsys
 ```
 
 ## Examples
-### Initialization of Shodan API
+### Initialization of Censys API
 ```
-set s_api [shodan_api new <api_key>]
+set s_api [censys_api new <api_key>]
 ```
 
 ### Search
