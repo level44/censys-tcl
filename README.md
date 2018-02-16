@@ -24,7 +24,7 @@ package require censsys
 ## Examples
 ### Initialization of Censys API
 ```
-set s_api [censys_api new <api_key>]
+set s_api [censys_api new <api_key> <secret>]
 ```
 
 ### Search
