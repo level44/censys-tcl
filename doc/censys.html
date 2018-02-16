@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1" />
+<link rel="stylesheet" href="./censys.css" type="text/css" />
+<title>./../doc/censys</title>
+<!-- Source: ./../ -->
+<!-- Generated with ROBODoc Version 4.99.41 (Feb  6 2011) -->
+</head>
+<body>
+<div id="logo">
+<a name="robo_top_of_doc"></a>
+</div> <!-- logo -->
+<h3>TABLE OF CONTENTS</h3>
+<ul>
+<li><a href="#robo0">/censys_api</a></li>
+<li><a href="#robo1">censys/constructor</a></li>
+<li><a href="#robo2">censys_api/search</a></li>
+</ul>
+<hr />
+<a name="2fcensys5fapi"></a>
+<a name="robo0"></a><h2>/censys_api [ Modules ]</h2>
+
+<p>[ <a href="#robo_top_of_doc">Top</a> ] [ Modules ]</p>
+<p class="item_name">DESCRIPTION</p>
+<pre>   Library allows to comunicate with Censys database
+
+ Basic examples
+</pre>
+
+<hr />
+<a name="censys2fconstructor"></a>
+<a name="robo1"></a><h2>censys/constructor [ Procedures ]</h2>
+
+<p>[ <a href="#robo_top_of_doc">Top</a> ] [ Procedures ]</p>
+<p class="item_name">NAME</p>
+<pre>   <strong>constructor</strong>
+</pre>
+<p class="item_name">DESCRIPTION</p>
+<pre>   Create censys object
+</pre>
+<p class="item_name">ARGUMENTS</p>
+<pre>   api_key - censys api key
+</pre>
+<p class="item_name">RESULT</p>
+<pre>   Object handler
+</pre>
+<p class="item_name">USAGE</p>
+<pre class="source">    #   set api_s [censys &lt;api_key&gt; &lt;secret&gt;]
+</pre>
+
+<hr />
+<a name="censys5fapi2fsearch"></a>
+<a name="robo2"></a><h2>censys_api/search [ Procedures ]</h2>
+
+<p>[ <a href="#robo_top_of_doc">Top</a> ] [ <a href="#robo0">censys_api</a> ] [ Procedures ]</p>
+<p class="item_name">NAME</p>
+<pre>   <strong>search</strong>
+</pre>
+<p class="item_name">DESCRIPTION</p>
+<pre>   Search censys database
+</pre>
+<p class="item_name">ARGUMENTS</p>
+<pre>   index - the <strong>search</strong> index to be queried. Must be one of ipv4, websites, or certificates.
+   query - the query to be executed
+   page - the page of the results
+   fields - the fields to return
+   flatten - format of the returned results
+</pre>
+<p class="item_name">RESULT</p>
+<p class="item_name">USAGE</p>
+<pre class="source">    #   $api_s <strong>search</strong> ipv4 "test"
+</pre>
+
+<div id="footer">
+<p>Generated from ./../ with <a href="http://www.xs4all.nl/~rfsber/Robo/robodoc.html">ROBODoc</a> V4.99.41 on Fri Feb 16 2018 22:15:52
+</p>
+</div> <!-- footer -->
+</body>
+</html>
